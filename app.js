@@ -1,5 +1,20 @@
 /** @format */
 
+$(document).ready(function () {
+	// typing animation script
+
+	let typed = new Typed(".typing", {
+		strings: [
+			"Frontend Web development",
+			"Backend Web development",
+			"Data science",
+		],
+		typeSpeed: 100,
+		backSpeed: 60,
+		loop: true,
+	});
+});
+
 const sections = document.querySelectorAll(".section");
 const sectBtns = document.querySelectorAll(".controlls");
 const sectBtn = document.querySelectorAll(".control");
